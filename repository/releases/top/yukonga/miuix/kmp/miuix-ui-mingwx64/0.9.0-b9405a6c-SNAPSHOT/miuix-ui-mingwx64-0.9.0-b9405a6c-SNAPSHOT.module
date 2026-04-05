@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../miuix-ui/0.9.0-b9405a6c-SNAPSHOT/miuix-ui-0.9.0-b9405a6c-SNAPSHOT.module",
+    "group": "top.yukonga.miuix.kmp",
+    "module": "miuix-ui",
+    "version": "0.9.0-b9405a6c-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "top.yukonga.miuix.kmp",
+          "module": "miuix-core",
+          "version": {
+            "requires": "0.9.0-b9405a6c-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "top.yukonga.miuix.kmp",
+          "module": "miuix-shapes",
+          "version": {
+            "requires": "0.9.0-b9405a6c-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigationevent",
+          "module": "navigationevent-compose",
+          "version": {
+            "requires": "1.1.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.materialkolor",
+          "module": "material-color-utilities",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-ui-mingwX64Main-0.9.0-b9405a6c-SNAPSHOT.klib",
+          "url": "miuix-ui-mingwx64-0.9.0-b9405a6c-SNAPSHOT.klib",
+          "size": 1388345,
+          "sha512": "a7841da1c2422d7f1372eeaab9ede523b31a7903624f15b1dd9b1df98761edf91f63a74d1a10e04eb75de1afa3c35534f6f2088e1b8eceacc100f4dd3f9b7959",
+          "sha256": "b50ea685c2ba4bb4d4118f9eca792a748feae92bdcbd657dfa78d6bca5a993a7",
+          "sha1": "81a8b67fa9566e810314bcfc75537f94869aeb19",
+          "md5": "d105d9dccd286628d23f9ff9de33bdee"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "miuix-ui-mingwx64-0.9.0-b9405a6c-SNAPSHOT-sources.jar",
+          "url": "miuix-ui-mingwx64-0.9.0-b9405a6c-SNAPSHOT-sources.jar",
+          "size": 180601,
+          "sha512": "3447164f99212962fe301c57a3698e6c5e54205cd28b0620b4e233e5cc0ebe3c0e0e3f93213a66b19238abfa15574290cb76d19e88a35b67039adb2d4c00c8ca",
+          "sha256": "4851b023f8693cb37e8c78b062b620ddf7d897cb503ecc98c9e2b9f74591ded0",
+          "sha1": "57d0ca9d4b0ef99b0ebb08c9fa31e103f1b8dad1",
+          "md5": "a9b895ceb5bc631d572402c410549b4c"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "top.yukonga.miuix.kmp",
+          "module": "miuix-core",
+          "version": {
+            "requires": "0.9.0-b9405a6c-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "top.yukonga.miuix.kmp",
+          "module": "miuix-shapes",
+          "version": {
+            "requires": "0.9.0-b9405a6c-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.navigationevent",
+          "module": "navigationevent-compose",
+          "version": {
+            "requires": "1.1.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.material3",
+          "module": "material3-window-size-class",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.materialkolor",
+          "module": "material-color-utilities",
+          "version": {
+            "requires": "4.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-ui-0.9.0-b9405a6c-SNAPSHOT.kotlin_resources.zip",
+          "url": "miuix-ui-mingwx64-0.9.0-b9405a6c-SNAPSHOT-kotlin_resources.kotlin_resources.zip",
+          "size": 348,
+          "sha512": "e1fba47e8d5d4a98f1ff63337d4c464333493cafa343f494cf26b955a8424253d9e19d03dec08b63968d86bf9dd39589273f76ee3e9a9b16b264cb8c448d4077",
+          "sha256": "1720a84986e1d437851e9b26a187eccba0f5ee301935cc268ccb296c347e0d1d",
+          "sha1": "c00061da51519522a918da0ff10e25922312e5b7",
+          "md5": "2f1d93457cea20a8fd77c1c95e218649"
+        }
+      ]
+    }
+  ]
+}

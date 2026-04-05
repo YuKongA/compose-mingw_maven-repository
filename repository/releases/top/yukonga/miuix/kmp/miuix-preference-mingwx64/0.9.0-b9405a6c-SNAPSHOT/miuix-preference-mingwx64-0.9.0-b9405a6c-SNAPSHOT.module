@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../miuix-preference/0.9.0-b9405a6c-SNAPSHOT/miuix-preference-0.9.0-b9405a6c-SNAPSHOT.module",
+    "group": "top.yukonga.miuix.kmp",
+    "module": "miuix-preference",
+    "version": "0.9.0-b9405a6c-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "top.yukonga.miuix.kmp",
+          "module": "miuix-ui",
+          "version": {
+            "requires": "0.9.0-b9405a6c-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-preference-mingwX64Main-0.9.0-b9405a6c-SNAPSHOT.klib",
+          "url": "miuix-preference-mingwx64-0.9.0-b9405a6c-SNAPSHOT.klib",
+          "size": 126318,
+          "sha512": "4ac9f9099e52237a9ab39223aa2f45c981ff85e5fd63d2b5ddec75fd8d2775a8b2c85179887ed65087df56e5b1a1f9379f121f675f13e8770c56d5f00563359d",
+          "sha256": "f83fb198f96cfae42f0f5bad2bd39e7ffe3532b060ead31a1fa6e44b76ac9a2b",
+          "sha1": "74c12f09577e3c61d0e88528cd4e0e9051776c92",
+          "md5": "97a765c29c273af35dd7be6d05f70b81"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "miuix-preference-mingwx64-0.9.0-b9405a6c-SNAPSHOT-sources.jar",
+          "url": "miuix-preference-mingwx64-0.9.0-b9405a6c-SNAPSHOT-sources.jar",
+          "size": 17122,
+          "sha512": "9226e8e76ba7f4ad476432a489c82d1e3ffb7f08b60ec12a7cb2d4de522e6e23a417ea228d7ce5db3726334616b7de060f6c4e5d8b362935c0d59174e18421b9",
+          "sha256": "410e5b2f47fa83180950a6ec58dfc80570e11824bb3cd6d3e521aad4c13ca733",
+          "sha1": "4c67df7e0f13816fa6606d4efed48a4fa1e9c22a",
+          "md5": "e967776f8c5821d0fefc1b8574a73deb"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "top.yukonga.miuix.kmp",
+          "module": "miuix-ui",
+          "version": {
+            "requires": "0.9.0-b9405a6c-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-preference-0.9.0-b9405a6c-SNAPSHOT.kotlin_resources.zip",
+          "url": "miuix-preference-mingwx64-0.9.0-b9405a6c-SNAPSHOT-kotlin_resources.kotlin_resources.zip",
+          "size": 364,
+          "sha512": "d10181c6413d6ca368190060c8c0f7524cfaf0cd3beec8d6f45a798b45ee28d15eeb0e88cbe73903d621cce56bb5d7a565da260ff61531c2bc15bcd8285c56f2",
+          "sha256": "1bf2b66626ce3e16c54f65101c037e32c748ced8a8feadc67a426cd1bcc10fa7",
+          "sha1": "691d58311245b1e03d0da7cfcb0a2bce6c62a022",
+          "md5": "2d519b2578aec0d8879203b5094b147c"
+        }
+      ]
+    }
+  ]
+}

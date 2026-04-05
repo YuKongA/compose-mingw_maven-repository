@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material3-window-size-class/1.9.0/material3-window-size-class-1.9.0.module",
+    "group": "org.jetbrains.compose.material3",
+    "module": "material3-window-size-class",
+    "version": "1.9.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-mingwx64",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material3-window-size-class-mingwX64Main-1.9.0.klib",
+          "url": "material3-window-size-class-mingwx64-1.9.0.klib",
+          "size": 19201,
+          "sha512": "df28845cc06ea3c13c9ac0dd92344cc1adebb9b444783ac3ac75cfbeda2acfbbdb2e96e5d78449212ffd407fd640c781ee7955e11bdfcc03af69082aaf8e9e8e",
+          "sha256": "fac2fea01ca86cdd0f1baa4160348fa607519482ba0079b0e62cf90e63927475",
+          "sha1": "2fe81acb688c0af07664729c14a36e93c633dd89",
+          "md5": "58be96daccbb25b8ee59f6f42da1dbcf"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "material3-window-size-class-mingwx64-1.9.0-sources.jar",
+          "url": "material3-window-size-class-mingwx64-1.9.0-sources.jar",
+          "size": 7922,
+          "sha512": "5497607ed9f5ebe3041cbffd4fae9847526ac11c301890a50f79d772a0bddee4c601185b3a828a7769d522db1b7ef47b6f8753217130ade993aa3bb0099ee7b5",
+          "sha256": "dec9863e387736225d967880368ed61ee502bf8533475efe43fb47db95f771d2",
+          "sha1": "60c711f835aa23ec11a0cb86b3d833f90e539c36",
+          "md5": "ac519a5cf9fbe786a5604910e150fa77"
+        }
+      ]
+    }
+  ]
+}

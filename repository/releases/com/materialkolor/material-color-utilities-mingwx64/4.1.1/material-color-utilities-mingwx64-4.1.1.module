@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material-color-utilities/4.1.1/material-color-utilities-4.1.1.module",
+    "group": "com.materialkolor",
+    "module": "material-color-utilities",
+    "version": "4.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "dev.drewhamilton.poko",
+          "module": "poko-annotations",
+          "version": {
+            "requires": "0.22.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-color-utilities-mingwX64Main-4.1.1.klib",
+          "url": "material-color-utilities-mingwx64-4.1.1.klib",
+          "size": 331784,
+          "sha512": "d29cd471befe02e7788e73ade92e1209486865331c2dea24a0035056e6f3e314e29a725f7654a87cad376efe3a6e21a931dfce374c5de41455682a18962df8eb",
+          "sha256": "1706ae32d0dca5c1556c764384c7f20ba7536aea03469cf23ed187669720bc25",
+          "sha1": "9a18f6cb1c73181617e42024338d60bc4010655c",
+          "md5": "e67b9dc53b1b3aff677772d8757579ed"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "material-color-utilities-mingwx64-4.1.1-sources.jar",
+          "url": "material-color-utilities-mingwx64-4.1.1-sources.jar",
+          "size": 96059,
+          "sha512": "b9a0f37920289e695067f6a9ac4ea801c976dbc658fc0f59782d5eb049a6f257215f989fe662563cded19859ff5a796bd58929f1057ba1b222435babc09c49ae",
+          "sha256": "3d2afbde92d4cea8d75fb79f59b159b62a5d79dda5b6061a1204c7e41bb21293",
+          "sha1": "6f3b25c44bf534a3a6cae1e19eb9ce7b2fb02dd5",
+          "md5": "69af5b9b4839482176a6d7bb5517812b"
+        }
+      ]
+    }
+  ]
+}
