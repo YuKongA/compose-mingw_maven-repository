@@ -1,0 +1,495 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../ui/1.11.0-alpha04/ui-1.11.0-alpha04.module",
+    "group": "org.jetbrains.compose.ui",
+    "module": "ui",
+    "version": "1.11.0-alpha04",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "androidx.compose.runtime",
+          "module": "runtime-retain",
+          "version": {
+            "requires": "1.11.0-beta02"
+          }
+        },
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-compose",
+          "version": {
+            "requires": "1.1.0-alpha01"
+          }
+        },
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate-compose",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.annotation-internal",
+          "module": "annotation",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.collection-internal",
+          "module": "collection",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime-saveable",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.28.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.skiko",
+          "module": "skiko",
+          "version": {
+            "requires": "0.144.5"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics-lint",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-lint",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-test",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-test-junit4",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-test-manifest",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-test-manifest-lint",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text-google-fonts",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-data",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-viewbinding",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-mingwX64Main-1.11.0-alpha04.klib",
+          "url": "ui-mingwx64-1.11.0-alpha04.klib",
+          "size": 2959866,
+          "sha512": "c77150587795c1b282c9c26da76ad072dc4edb96e0e116026036e2c91bf2ea67b72bb8cfaf3af8f41e347f3350728c5a52327a31b07818429d7854713f1f0c32",
+          "sha256": "9de80614778d79fb1b276d390610205c53156f3471dcef50b78d3cb68ceef015",
+          "sha1": "efc92bd531a363be338297b114fe6e4865ce6443",
+          "md5": "65bc17cb073c513f4cd037fed2f161b8"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-geometry",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-graphics",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-graphics-lint",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-lint",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-test",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-test-junit4",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-test-manifest",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-test-manifest-lint",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-text",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text-google-fonts",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-data",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-tooling-preview",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-unit",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-viewbinding",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-backhandler",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          },
+          "reason": "ui is in atomic group androidx.compose.ui"
+        }
+      ],
+      "files": [
+        {
+          "name": "ui-mingwx64-1.11.0-alpha04-sources.jar",
+          "url": "ui-mingwx64-1.11.0-alpha04-sources.jar",
+          "size": 811876,
+          "sha512": "e76804ed7ef77a09d57a4a37d87bf86cd4db2f33ecbe9bac3058b70bf39efd1e6090a9a11e1e0d962c625bdd414d494e0d77acb10515ad4c4d2a6cf38dc0907b",
+          "sha256": "216e8a1dbed8110b36b5baaad2ddf258fb706b90d0a68b37b7da36b673ece0c4",
+          "sha1": "35ee857b0696d43a36b4a769b4e65301248793ec",
+          "md5": "11141721b5775069df8eddfa6a0d1e15"
+        }
+      ]
+    }
+  ]
+}
