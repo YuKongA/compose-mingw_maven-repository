@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../material-icons-core/1.7.3/material-icons-core-1.7.3.module",
+    "group": "org.jetbrains.compose.material",
+    "module": "material-icons-core",
+    "version": "1.7.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-mingwx64",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-icons-core-mingwX64Main-1.7.3.klib",
+          "url": "material-icons-core-mingwx64-1.7.3.klib",
+          "size": 452704,
+          "sha512": "aecba70d8aaee043cdca47bcdd4f3bb9c8f96dd84fc17a664030fdd089f7798912e3dbb7c0943067a100b5a2bf4826d7549edcc71e08e714f8a0fea1309d0804",
+          "sha256": "40080fccd5530f0aea9b854f1a46e586e58778aab9a510c61029846149eb536a",
+          "sha1": "0e71302678de8d6659afd4a848af19790a4c81e1",
+          "md5": "ac2c849ec317cc93a8921baeeaf5993d"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "material-icons-core-mingwx64-1.7.3-sources.jar",
+          "url": "material-icons-core-mingwx64-1.7.3-sources.jar",
+          "size": 284048,
+          "sha512": "2803312f6e4dfb1b2501b44f47eb72fd02212e41a18c5dcbec7b7e280612b486d23b72d50688a2fb3776b1582ae63ec923fd3f39bdbc4e951a779dc133495f64",
+          "sha256": "b3f1be7fda4d13a6d938bb918275ddc143e9d6a2007727f284778480526f5f16",
+          "sha1": "e518df0d8a19c3833f72a24ff667853015e340fd",
+          "md5": "6f8dfe229b864de0e1deaa71ad0c1434"
+        }
+      ]
+    }
+  ]
+}
