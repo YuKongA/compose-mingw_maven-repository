@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jetbrains.androidx.lifecycle</groupId>
+  <artifactId>lifecycle-runtime-compose</artifactId>
+  <versioning>
+    <latest>2.11.0-alpha01</latest>
+    <release>2.11.0-alpha01</release>
+    <versions><version>2.11.0-alpha01</version></versions>
+  </versioning>
+</metadata>

@@ -1,0 +1,202 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.androidx.lifecycle",
+    "module": "lifecycle-common",
+    "version": "2.11.0-alpha01"
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.11.0-alpha03"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-testing",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-testing",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-common-mingwX64Main-2.11.0-alpha01.klib",
+          "url": "../../lifecycle-common-mingwx64/2.11.0-alpha01/lifecycle-common-mingwx64-2.11.0-alpha01.klib",
+          "size": 7372,
+          "sha512": "4fcc719c9d9c945ae0780fe673eac023273e0fdf33a685fadc23f6b312019f4662874852e44ce8a424e6dcf36cfe6e53372583c225e4c1811627768d876e9f1b",
+          "sha256": "e654ddf710c499d439e1ee2c847b29fc5bfcf08177c5817eb7337fc9841fae3b",
+          "sha1": "a6d7c452b0b0d77377ea774a13795b56e40015c5",
+          "md5": "952e8c194af811c8af8eb82ee4cca3fe"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-compose",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-navigation3",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-viewmodel-savedstate",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-testing",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-testing",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          },
+          "reason": "lifecycle-common is in atomic group androidx.lifecycle"
+        }
+      ],
+      "files": [
+        {
+          "name": "lifecycle-common-mingwx64-2.11.0-alpha01-sources.jar",
+          "url": "../../lifecycle-common-mingwx64/2.11.0-alpha01/lifecycle-common-mingwx64-2.11.0-alpha01-sources.jar",
+          "size": 5328,
+          "sha512": "5371000f9546ce5a0549a89106b4daf09b52cb2c269af47702fba7fb4494b9230d3d7de764f8bdf3e6df8d6e08ec7853dcfa80f28aff49f1311208cf6e21b348",
+          "sha256": "dc4609bf548a85d548dfe1cfc97c3f9c9bf92008ba567015b9c6276b496e13a3",
+          "sha1": "286f92cc6440044b62cdc59ab16cf22f67fc0abb",
+          "md5": "4f742e02e2b775f711ff1e6e41bbff74"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.compose.annotation-internal",
+    "module": "annotation",
+    "version": "1.11.0-alpha04"
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-mingwX64Main-1.11.0-alpha04.klib",
+          "url": "../../annotation-mingwx64/1.11.0-alpha04/annotation-mingwx64-1.11.0-alpha04.klib",
+          "size": 7308,
+          "sha512": "c547db15556a2e33f21918988ae97e25669d199cd454c0bec4dca6a308bc6e2edb0811cea4ae15aeec953ce55c6406bfceaa3c607fed68fae38ef871b2c829a9",
+          "sha256": "29d44a15ffe9fd2b110d81190b343697692a0887dafe159529c85cfaf05d4b70",
+          "sha1": "99eb6e55cbbfe9e7f48c6a00bd2bbc59eca0a272",
+          "md5": "1092974d5259a22519f0bde07cf64f2f"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "annotation-mingwx64-1.11.0-alpha04-sources.jar",
+          "url": "../../annotation-mingwx64/1.11.0-alpha04/annotation-mingwx64-1.11.0-alpha04-sources.jar",
+          "size": 5310,
+          "sha512": "976edc69962393ddbcfe868fe3e2f52607780b8ac8d163ba7a9e0f908fbedadf1bcecedac6c204e040bd34d06803995b3f0a12b5443042bf03dbf1bf3241a14c",
+          "sha256": "5fd8d53d03b592aa631eb5ed5dcc61ed8d7da7c624fc0355801bb5543952c6ae",
+          "sha1": "413f5767f87914f9819903d4e40f4fbf9e8b8848",
+          "md5": "f3438790ca27540b29f35da3a7604bd8"
+        }
+      ]
+    }
+  ]
+}

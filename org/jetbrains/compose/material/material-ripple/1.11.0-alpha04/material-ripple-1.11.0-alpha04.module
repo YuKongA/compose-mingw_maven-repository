@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.compose.material",
+    "module": "material-ripple",
+    "version": "1.11.0-alpha04"
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.collection",
+          "module": "collection",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.animation",
+          "module": "animation",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.ui",
+          "module": "ui-util",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "material-ripple-mingwX64Main-1.11.0-alpha04.klib",
+          "url": "../../material-ripple-mingwx64/1.11.0-alpha04/material-ripple-mingwx64-1.11.0-alpha04.klib",
+          "size": 62554,
+          "sha512": "28a15438019656d363b0d4fb612a29c9f80bb0ee20c44b0ad56f71d73fc9b489fe1672abe9c260ff722dda9a954a5635493ce28f5c0d40dd7f7e6afac53de143",
+          "sha256": "472811cf55c08433dc4eae5e3862275b781a883072183db133962f112fb7dd1d",
+          "sha1": "9a46541a203c508bab2394c6709fb66a8f3c9d01",
+          "md5": "9bd40c22d943e8e59ec8478cc895e3b1"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "material-ripple-mingwx64-1.11.0-alpha04-sources.jar",
+          "url": "../../material-ripple-mingwx64/1.11.0-alpha04/material-ripple-mingwx64-1.11.0-alpha04-sources.jar",
+          "size": 19703,
+          "sha512": "6270bcb25ab4aa3dec461dd3e342482a556cf46e184b49f06c3e2fcefc442cd6e4bf51fbd7eb6323a9632920739a8cd4c3fbb00ce323332117aec77cb178692b",
+          "sha256": "6b0454cbf474bdfe88e56a0f5ee4931678ff1ad8e678a2e3507201217333512c",
+          "sha1": "ebc92a85e49ef03b1df9a3e9846b835d31087467",
+          "md5": "7684f5126065fb9b71b3673cf3b014a0"
+        }
+      ]
+    }
+  ]
+}

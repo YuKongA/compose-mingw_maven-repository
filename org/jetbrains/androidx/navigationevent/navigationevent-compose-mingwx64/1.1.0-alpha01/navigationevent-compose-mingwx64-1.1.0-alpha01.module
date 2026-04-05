@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../navigationevent-compose/1.1.0-alpha01/navigationevent-compose-1.1.0-alpha01.module",
+    "group": "org.jetbrains.androidx.navigationevent",
+    "module": "navigationevent-compose",
+    "version": "1.1.0-alpha01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.navigationevent",
+          "module": "navigationevent-compose",
+          "version": {
+            "requires": "1.1.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.runtime",
+          "module": "runtime",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "navigationevent-compose-mingwX64Main-1.1.0-alpha01.klib",
+          "url": "navigationevent-compose-mingwx64-1.1.0-alpha01.klib",
+          "size": 7489,
+          "sha512": "6484788051eae6293c49e6ea7168cd08019aa100c799257fae1a40e1b54577ce3a9b6ac7da7a50af88a7daef4bbe7fac048846332e5ca5f3be8bb1dc01d06685",
+          "sha256": "4ce0157871be6aa340ec2d380173c381ca9ef1a8521ad2100a64a3a3f37bd92e",
+          "sha1": "48bc3bc217d97714eca52239d7602977ac7c02c3",
+          "md5": "409775dfe79aae86e3743a20afe622e9"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "navigationevent-compose-mingwx64-1.1.0-alpha01-sources.jar",
+          "url": "navigationevent-compose-mingwx64-1.1.0-alpha01-sources.jar",
+          "size": 5392,
+          "sha512": "69e19b5822ffa7c4752cbdad5a4d7caaffbb1c0734a17a387d0a6c5a8bc1fcc8c21fa318c059b764058085521ea1fe3f359ac2448f260e966661e9cff4de69a0",
+          "sha256": "102603e1d62ca976bf2a5ed4acb1ab20e7da18a0c646a105285926b0ee91401d",
+          "sha1": "8673cb764d18d2bbf242758cd1d151a5ee048442",
+          "md5": "37f54f3eaacc15510485810dd0e6d947"
+        }
+      ]
+    }
+  ]
+}

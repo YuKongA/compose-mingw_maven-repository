@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.androidx.savedstate",
+    "module": "savedstate",
+    "version": "1.5.0-alpha01"
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.savedstate",
+          "module": "savedstate",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.11.0-alpha01"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.androidx.savedstate",
+          "module": "savedstate-compose",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        }
+      ],
+      "files": [
+        {
+          "name": "savedstate-mingwX64Main-1.5.0-alpha01.klib",
+          "url": "../../savedstate-mingwx64/1.5.0-alpha01/savedstate-mingwx64-1.5.0-alpha01.klib",
+          "size": 7384,
+          "sha512": "3a6924bc1e390c06883532687a6427148e9721427bb3e95b5ad3bc1af96343c27bb58c8bdf7433ad461ef512cb1c5b2e3d1c980c72b81f2e0cf1c6543d3fe850",
+          "sha256": "183c3f00ae81e2b8a353891544453e6081a4dfa39fadb40c1f1bac5de9d986c8",
+          "sha1": "c25d180263cf66cbe0a15cbb5c67878cb0725323",
+          "md5": "ac066bdd560853c041874f982e2b9ddb"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencyConstraints": [
+        {
+          "group": "org.jetbrains.androidx.savedstate",
+          "module": "savedstate-compose",
+          "version": {
+            "requires": "1.5.0-alpha01"
+          },
+          "reason": "savedstate is in atomic group androidx.savedstate"
+        }
+      ],
+      "files": [
+        {
+          "name": "savedstate-mingwx64-1.5.0-alpha01-sources.jar",
+          "url": "../../savedstate-mingwx64/1.5.0-alpha01/savedstate-mingwx64-1.5.0-alpha01-sources.jar",
+          "size": 5310,
+          "sha512": "d81b82ede00c0ed1c6aa2d06c84d07c01e96649abd508918674ef8e2f20fc90873ce6032829cd64804dbdc334d7ea6cc36873dfe1df3164aacd77ec2fc0eacb9",
+          "sha256": "450f8a23db7d722845ef98436a0583603bef0f33bc8b969f4a4e5d92de98b2e3",
+          "sha1": "0ca32fb96f6656ed7a57722c36909c11b2958b3e",
+          "md5": "597aa0dff4d65a2a5a8cfee772429e8f"
+        }
+      ]
+    }
+  ]
+}

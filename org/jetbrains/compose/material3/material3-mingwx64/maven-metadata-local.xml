@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.jetbrains.compose.material3</groupId>
+  <artifactId>material3-mingwx64</artifactId>
+  <versioning>
+    <latest>1.5.0-alpha13</latest>
+    <release>1.5.0-alpha13</release>
+    <versions>
+      <version>1.5.0-alpha13</version>
+    </versions>
+    <lastUpdated>20260405061043</lastUpdated>
+  </versioning>
+</metadata>
