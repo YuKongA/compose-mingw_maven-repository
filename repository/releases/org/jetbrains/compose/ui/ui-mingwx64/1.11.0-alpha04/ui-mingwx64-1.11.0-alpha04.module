@@ -322,11 +322,11 @@
         {
           "name": "ui-mingwX64Main-1.11.0-alpha04.klib",
           "url": "ui-mingwx64-1.11.0-alpha04.klib",
-          "size": 2959630,
-          "sha512": "e6c3c1824923c8d0203b0f757325fcb5dfb5bfcc20015ddd95bb35b04be8255c4f8d68acd0d53990affb34ff3376cb0715619c640d4b0000cd99470c69910dd9",
-          "sha256": "9778d8fbafb67a7b75c568a3e9efd50b4c496bba16c41266f596165667d6125a",
-          "sha1": "fa1b319084fef14a956a5b0f241009d2dfdf55b7",
-          "md5": "ff51b6d9048fe7e1aee2002dda03bda9"
+          "size": 2959881,
+          "sha512": "44b51b7857013bb6a1d2ec242651d58da45f64e36053a6260169660463ee81d8a4e68c1b8fcd54f75515a7349adee44b0a540fc52e3a8b5ffab948fdd0f2c9b0",
+          "sha256": "3ddcd5120da33f8ce30ccd976e20604cbdc162a5aaf135d36027a10f552bd24a",
+          "sha1": "64efa6b1b1bd3b18e237999b074cd10d2043e5f0",
+          "md5": "4e3b184c4554834b6c4bb315562b1dc4"
         }
       ]
     },
@@ -483,11 +483,11 @@
         {
           "name": "ui-mingwx64-1.11.0-alpha04-sources.jar",
           "url": "ui-mingwx64-1.11.0-alpha04-sources.jar",
-          "size": 811782,
-          "sha512": "4171f0be791996e3d60649a5a48728c9c1ac1b51953829c9072940d26c1124855afb0452add30124abc7f3b60d802254f1c4e7b4a08e34ae452cee33d3b691a3",
-          "sha256": "f47524434ac3992e5a12f74f2b6ca86844bfb709e7ac43520408c51e3ac02b5c",
-          "sha1": "3e12e6426c4c16fabbe47c566f7a90ca8c0ab621",
-          "md5": "9bb5d617df2b7c04bb4aaab0b2d97739"
+          "size": 811804,
+          "sha512": "f7ac74d0aafd9cd3fbdee0e266d41142867cfe5f6ac8028752a079cc5bdcca139967b149a466667a0fb9e8c6f51bc8693810abc2df7b4e47733227b1dfa89266",
+          "sha256": "098f69ebf39459c970ceaecc10c982a4e95fcba47e80f50935e3f64cf05170cc",
+          "sha1": "789f9c8921c547dd2b1b1dd457772c22a0169045",
+          "md5": "ac8cbe8c61b664849b2455722d7bb4ad"
         }
       ]
     }
