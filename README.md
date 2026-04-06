@@ -96,14 +96,14 @@ dependencyResolutionManagement {
 
 | Artifact | Version |
 |----------|---------|
-| com.materialkolor:material-color-utilities-mingwx64 | 4.1.1 |
-| top.yukonga.miuix.kmp:miuix-core | 0.9.0-SNAPSHOT |
-| top.yukonga.miuix.kmp:miuix-ui | 0.9.0-SNAPSHOT |
-| top.yukonga.miuix.kmp:miuix-blur | 0.9.0-SNAPSHOT |
-| top.yukonga.miuix.kmp:miuix-preference | 0.9.0-SNAPSHOT |
-| top.yukonga.miuix.kmp:miuix-icons | 0.9.0-SNAPSHOT |
-| top.yukonga.miuix.kmp:miuix-navigation3-ui | 0.9.0-SNAPSHOT |
-| top.yukonga.miuix.kmp:miuix-shapes | 0.9.0-SNAPSHOT |
+| com.materialkolor:material-color-utilities | 4.1.1 |
+| top.yukonga.miuix.kmp:miuix-core | 0.9.0-b9405a6c-SNAPSHOT |
+| top.yukonga.miuix.kmp:miuix-ui | 0.9.0-b9405a6c-SNAPSHOT |
+| top.yukonga.miuix.kmp:miuix-blur | 0.9.0-b9405a6c-SNAPSHOT |
+| top.yukonga.miuix.kmp:miuix-preference | 0.9.0-b9405a6c-SNAPSHOT |
+| top.yukonga.miuix.kmp:miuix-icons | 0.9.0-b9405a6c-SNAPSHOT |
+| top.yukonga.miuix.kmp:miuix-navigation3-ui | 0.9.0-b9405a6c-SNAPSHOT |
+| top.yukonga.miuix.kmp:miuix-shapes | 0.9.0-b9405a6c-SNAPSHOT |
 
 ## Why This Repository
 
