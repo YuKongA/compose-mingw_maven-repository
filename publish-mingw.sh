@@ -147,6 +147,7 @@ step_sync() {
   cp -r ~/.m2/repository/org/jetbrains/skiko "$RELEASES_DIR/org/jetbrains/"
 
   mkdir -p "$RELEASES_DIR/com/materialkolor"
+  cp -r ~/.m2/repository/com/materialkolor/material-color-utilities "$RELEASES_DIR/com/materialkolor/"
   cp -r ~/.m2/repository/com/materialkolor/material-color-utilities-mingwx64 "$RELEASES_DIR/com/materialkolor/"
 
   mkdir -p "$RELEASES_DIR/top/yukonga"
