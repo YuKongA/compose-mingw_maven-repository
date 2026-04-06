@@ -3,43 +3,43 @@
   <groupId>top.yukonga.miuix.kmp</groupId>
   <artifactId>miuix-icons-mingwx64</artifactId>
   <versioning>
-    <lastUpdated>20260405151918</lastUpdated>
+    <lastUpdated>20260406141610</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>kotlin_resources</classifier>
-        <extension>kotlin_resources.zip</extension>
-        <value>0.9.0-b9405a6c-SNAPSHOT</value>
-        <updated>20260405151918</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <extension>module</extension>
         <value>0.9.0-b9405a6c-SNAPSHOT</value>
-        <updated>20260405151918</updated>
+        <updated>20260406141610</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>klib</extension>
         <value>0.9.0-b9405a6c-SNAPSHOT</value>
-        <updated>20260405151918</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.9.0-b9405a6c-SNAPSHOT</value>
-        <updated>20260405151918</updated>
+        <updated>20260406141610</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
         <value>0.9.0-b9405a6c-SNAPSHOT</value>
-        <updated>20260405151918</updated>
+        <updated>20260406141610</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.9.0-b9405a6c-SNAPSHOT</value>
+        <updated>20260406141610</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
         <value>0.9.0-b9405a6c-SNAPSHOT</value>
-        <updated>20260405151918</updated>
+        <updated>20260406141610</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>kotlin_resources</classifier>
+        <extension>kotlin_resources.zip</extension>
+        <value>0.9.0-b9405a6c-SNAPSHOT</value>
+        <updated>20260406141610</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
