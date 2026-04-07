@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../miuix-shapes/0.9.0-f912a51a-SNAPSHOT/miuix-shapes-0.9.0-f912a51a-SNAPSHOT.module",
+    "group": "top.yukonga.miuix.kmp",
+    "module": "miuix-shapes",
+    "version": "0.9.0-f912a51a-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-shapes-mingwX64Main-0.9.0-f912a51a-SNAPSHOT.klib",
+          "url": "miuix-shapes-mingwx64-0.9.0-f912a51a-SNAPSHOT.klib",
+          "size": 28395,
+          "sha512": "e92f94c29f91143098939c6f96fa3fc071604928ef364a7bc380fc69afe27f35f5d1193a7ac80bf33a18b58e217b31d4e94cc53e4398e50096c52548e3fb1f86",
+          "sha256": "9dfc76547b2e3a09d431e61d59447a40cdf0544c914de16a970d4e97136391f8",
+          "sha1": "35a57d5cf42be003d18586d4f613aa431a7b2f2e",
+          "md5": "0051ac8aadcf781a07f614c5a494d217"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "miuix-shapes-mingwx64-0.9.0-f912a51a-SNAPSHOT-sources.jar",
+          "url": "miuix-shapes-mingwx64-0.9.0-f912a51a-SNAPSHOT-sources.jar",
+          "size": 7234,
+          "sha512": "afd9c8edbfdcc25b24c220ae558b86f1cc87c86f4ad9103e33047957a9bdec5270afaa5b63798b1e5fa6bdb73a900669295e5f9bea551c1627eed6eec984a299",
+          "sha256": "01a988f4f92131d0ed86282f0f3fb71fcb1260a98c59a07d572cc1b5a3fdafbd",
+          "sha1": "f89916876b8ad7bb275f8afc6521c2b6d2ba5293",
+          "md5": "3d51e91723e2d9a22b88779ff819d5ed"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-shapes-0.9.0-f912a51a-SNAPSHOT.kotlin_resources.zip",
+          "url": "miuix-shapes-mingwx64-0.9.0-f912a51a-SNAPSHOT-kotlin_resources.kotlin_resources.zip",
+          "size": 356,
+          "sha512": "4a926c9acc60886b7c619aba0f991368762e39634dedfdb07c9534506ecdb259e23cb713ee4e16bf48f5e6e07612b346de87543ce0d571a0d23f0f7c6ba247ce",
+          "sha256": "380f6f5a28bdabefab725f91df5cf725e6cb036e7ab346ac7d78aac844c12461",
+          "sha1": "601f21a1c39e35eb635ae2e6e711b5e92ee7efcf",
+          "md5": "22a54c05203adb8a1810adc7287b537e"
+        }
+      ]
+    }
+  ]
+}

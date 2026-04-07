@@ -18,7 +18,6 @@
     {
       "name": "mingwX64ApiElements-published",
       "attributes": {
-        "artifactType": "org.jetbrains.kotlin.klib",
         "org.gradle.category": "library",
         "org.gradle.jvm.environment": "non-jvm",
         "org.gradle.usage": "kotlin-api",
@@ -43,7 +42,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib",
           "version": {
-            "requires": "2.2.20"
+            "requires": "2.3.20"
           }
         }
       ],
@@ -51,20 +50,20 @@
         {
           "name": "skiko-mingwX64Main-0.144.5.klib",
           "url": "skiko-mingwx64-0.144.5.klib",
-          "size": 47241679,
-          "sha512": "b19ab482eaca9d7af74ea49f22be81c655d6364a72d9cecf8f09beb5f61f1a3b1d43ae400332588085795440f2fc2afec1f493f0cadd3af5f2ef316000886185",
-          "sha256": "6544fd13d18ba07f3e7f05d5de7bc474887979ef74cd8212cd123066ba8c8697",
-          "sha1": "5a89f0826c03fd13ea6e227fac5b2b253d78f9bc",
-          "md5": "0d94e72dc147e34a7a0b36cdc1cab2e6"
+          "size": 47169635,
+          "sha512": "5fcbaac25c2546d8aadd7320f73790c114e2b2768c98c32aef4309e857aae0aa64d03c724f3a75ba2718a164fdfa56a7ef655878a2721a4f625fd318236e31e6",
+          "sha256": "cf5049ed7c5a2d157be83a2b74c1aed961a576dbd9e99f10434b4f7899c0c236",
+          "sha1": "663a54c82d9379cb35a589967a078ac406c70ed6",
+          "md5": "d48fa81896cf67d99fcf2d62ec754f68"
         },
         {
           "name": "skiko-mingwX64Cinterop-skikoMain-0.144.5.klib",
           "url": "skiko-mingwx64-0.144.5-cinterop-skiko.klib",
-          "size": 3605,
-          "sha512": "a41feaa16bf6307005903c68d9ce9b0fae39a54f4af2188c7298f1228cd55ff6a8499dd2f222462c723481d998481bdb14d0f8410c2b628bc534392cf4bf478d",
-          "sha256": "7e498c6e0194665f040ef2b80b1d05e2b392e30cbd350e6e91764a3b9467a904",
-          "sha1": "6a826aa5364b9ff2d61392d08880b972ff58f2b4",
-          "md5": "d3fca6d2494f677e1455292ba6d0d8b7"
+          "size": 3602,
+          "sha512": "6c5e598e7191f2c5ae30267d967dc73b0754b49444a1241228a7334470276226d51e1b6ef5e92d59a2b7398ffde31cb4e15d524e096dad719eb8c9e5f31a0d3e",
+          "sha256": "c28d85d986ab4d6189952dd678c81ba735f942dbb1ff8cb3199bf13ed5d4f928",
+          "sha1": "8ba83a62cbebeec7939f1135b45538f471b8858d",
+          "md5": "46fb645c854ba066f3e9e56bedae1480"
         }
       ]
     },

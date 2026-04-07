@@ -207,11 +207,11 @@
         {
           "name": "animation-core-mingwx64-1.11.0-alpha04-sources.jar",
           "url": "animation-core-mingwx64-1.11.0-alpha04-sources.jar",
-          "size": 119116,
-          "sha512": "be1e9f352fe75646a89cf5a66fd9dec7c3a45f74df61fb77b17c6d108dfc8670c25c9501a4f85906a82936f859eb02f8c4c15ba25d16a309b1f15d9f5a757c22",
-          "sha256": "6d1f02688b70a58fa609c323af70d85f0b4bbf230d4dc8f6ef02ad2ef0c6468a",
-          "sha1": "cfc40bf62ffec1b46c42ca0a536d220ce55d36a1",
-          "md5": "dc8522f953cd53c63db8c63d494c5817"
+          "size": 119125,
+          "sha512": "e8c45dedab429a8c7f902fa2b331d95f309e85e6e94ee10097d4d4888ec1f8e408b90888b23b0eb7b529219f4bde30c8474aebead0ee3cf3a78a8ba5e019e219",
+          "sha256": "9e46045948c07016a2e36d9494e9b9f9f5a4bdf05c16ddc690769673bcba7fcc",
+          "sha1": "8bb69707e9f7b0ef0d6d63ca6655c2c55db00b6e",
+          "md5": "8c6aa84a345a840eb9cff21d5276efc5"
         }
       ]
     }

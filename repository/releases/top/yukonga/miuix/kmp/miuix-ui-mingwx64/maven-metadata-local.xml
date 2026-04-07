@@ -3,10 +3,10 @@
   <groupId>top.yukonga.miuix.kmp</groupId>
   <artifactId>miuix-ui-mingwx64</artifactId>
   <versioning>
-    <latest>0.9.0-b9405a6c-SNAPSHOT</latest>
+    <latest>0.9.0-f912a51a-SNAPSHOT</latest>
     <versions>
-      <version>0.9.0-b9405a6c-SNAPSHOT</version>
+      <version>0.9.0-f912a51a-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20260406141609</lastUpdated>
+    <lastUpdated>20260407025348</lastUpdated>
   </versioning>
 </metadata>

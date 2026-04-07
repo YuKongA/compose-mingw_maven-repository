@@ -120,6 +120,8 @@ step_icons() {
 
 step_miuix() {
   echo "=== miuix ==="
+  # Clean old miuix versions from mavenLocal to avoid stale snapshots in sync
+  rm -rf ~/.m2/repository/top/yukonga/miuix
   cd "$MIUIX_DIR"
   ./gradlew \
     :miuix-core:publishMingwX64PublicationToMavenLocal \
@@ -146,12 +148,17 @@ step_sync() {
   cp -r ~/.m2/repository/org/jetbrains/androidx "$RELEASES_DIR/org/jetbrains/"
   cp -r ~/.m2/repository/org/jetbrains/skiko "$RELEASES_DIR/org/jetbrains/"
 
+  rm -rf "$RELEASES_DIR/com/materialkolor"
   mkdir -p "$RELEASES_DIR/com/materialkolor"
   cp -r ~/.m2/repository/com/materialkolor/material-color-utilities "$RELEASES_DIR/com/materialkolor/"
   cp -r ~/.m2/repository/com/materialkolor/material-color-utilities-mingwx64 "$RELEASES_DIR/com/materialkolor/"
 
+  rm -rf "$RELEASES_DIR/top/yukonga"
   mkdir -p "$RELEASES_DIR/top/yukonga"
   cp -r ~/.m2/repository/top/yukonga/miuix "$RELEASES_DIR/top/yukonga/"
+
+  # Update README version numbers from published artifacts
+  python3 "$REPO_DIR/update_readme_versions.py" "$RELEASES_DIR" "$REPO_DIR/README.md"
 
   echo "Synced to $RELEASES_DIR"
 }

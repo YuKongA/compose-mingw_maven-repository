@@ -3,7 +3,7 @@
   "buildSystem": "Gradle",
   "buildSystemVersion": "8.14.3",
   "buildPlugin": "org.jetbrains.kotlin.gradle.plugin.KotlinMultiplatformPluginWrapper",
-  "buildPluginVersion": "2.2.20",
+  "buildPluginVersion": "2.3.20",
   "projectSettings": {
     "isHmppEnabled": true,
     "isCompatibilityMetadataVariantEnabled": false,
@@ -20,8 +20,8 @@
       "extras": {
         "native": {
           "konanTarget": "mingw_x64",
-          "konanVersion": "2.2.20",
-          "konanAbiVersion": "2.2.0"
+          "konanVersion": "2.3.20",
+          "konanAbiVersion": "2.3.0"
         }
       }
     }

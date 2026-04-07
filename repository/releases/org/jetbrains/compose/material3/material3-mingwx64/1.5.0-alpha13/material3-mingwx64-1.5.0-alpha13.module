@@ -203,11 +203,11 @@
         {
           "name": "material3-mingwx64-1.5.0-alpha13-sources.jar",
           "url": "material3-mingwx64-1.5.0-alpha13-sources.jar",
-          "size": 974433,
-          "sha512": "6ca29101fcebe262c8a699baae5348ad4afb07c325adc879e2d744b26d0c48a613e070d207a357792b4ca0ac57a2136b46369032db8bf47e2ac84d4a57e082c7",
-          "sha256": "25b07f667b7b5eab8cea342eb223950b7b8965b9752d797822972302bd38a194",
-          "sha1": "d9dce4a3e883906960cc127d9fa898937b5243c8",
-          "md5": "64cef063d7f46fac2544933b03bdc179"
+          "size": 974454,
+          "sha512": "76304d4bf8db44ac9dadcfbf4ba84faf384ee7e2d27aef9ec6456e5e77647797bf430399fec3fcaef7b3a0b569410d8b4d88e67910b67642bf7178ed30e06c9b",
+          "sha256": "887fe1ccb083eb535dc1839b3c0b507e98bf61e70f60c5e45ebc34cbe67ca441",
+          "sha1": "965a84494c6a748535bfe736c602475af90eb33b",
+          "md5": "99a778f6e1574107b059543a7fda3ffb"
         }
       ]
     }

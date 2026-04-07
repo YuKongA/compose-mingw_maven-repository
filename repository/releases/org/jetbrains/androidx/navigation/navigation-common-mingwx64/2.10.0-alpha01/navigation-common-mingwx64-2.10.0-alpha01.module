@@ -168,11 +168,11 @@
         {
           "name": "navigation-common-mingwx64-2.10.0-alpha01-sources.jar",
           "url": "navigation-common-mingwx64-2.10.0-alpha01-sources.jar",
-          "size": 111439,
-          "sha512": "92b43e8f246d0ec53660729c8c083193bead113e45f984c2d1d1eaad136feba93c36a20429fa4f8474a9ac3f5e6cf7d3e175aa9f4be8e6fde62bcd45d4642896",
-          "sha256": "430f7f2afd0d48a6574118dc8844d82c6631b06f6ef908aac20d8b563e7cdeb9",
-          "sha1": "a51ad1483af0717854821fe5b2df8cfbc59f1455",
-          "md5": "ff99ad704f4cd14dde3d92b73911af37"
+          "size": 111455,
+          "sha512": "3325e4bc5a317fcb8013302165b2eadf067f7ae0b69afee75866e0254b36ef52a2becb93c27a858670ad23f021df07c51566f9a5dfd283a3f37925300eab45f7",
+          "sha256": "fc22a8ebeb80470655000fb18be3d8101bba9546384e227d478a07f0b0981b09",
+          "sha1": "19535c6e947043a0ac1f5335d94ffe8a427b71f3",
+          "md5": "d6567cf1670d8fd197e4a0960a502724"
         }
       ]
     }

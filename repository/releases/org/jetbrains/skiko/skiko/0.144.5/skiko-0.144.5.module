@@ -59,7 +59,6 @@
     {
       "name": "mingwX64ApiElements-published",
       "attributes": {
-        "artifactType": "org.jetbrains.kotlin.klib",
         "org.gradle.category": "library",
         "org.gradle.jvm.environment": "non-jvm",
         "org.gradle.usage": "kotlin-api",

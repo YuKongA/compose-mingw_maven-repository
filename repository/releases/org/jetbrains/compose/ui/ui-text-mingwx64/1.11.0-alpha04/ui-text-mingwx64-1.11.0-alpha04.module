@@ -406,11 +406,11 @@
         {
           "name": "ui-text-mingwx64-1.11.0-alpha04-sources.jar",
           "url": "ui-text-mingwx64-1.11.0-alpha04-sources.jar",
-          "size": 251336,
-          "sha512": "aa57e7ec6cc3c1e2d01396a87c1a7b86d0b813d04a0b44b6142ee30411b372ea490ed361d673b2ab4861a1816734e51ed96e155337e666cdc79a329253738d04",
-          "sha256": "aaf052985e137f4489466b2fc4497acadb16ed53c18ea10bac1c9be62227442c",
-          "sha1": "c1a91ed86338d28fa6ef466f88b4d5f811175e8b",
-          "md5": "e03388645a726423d6a9f4ffae5e2c29"
+          "size": 251361,
+          "sha512": "141a483e588fff78f5e467046354fb3e6b7f984b7700183bed9cf2cf27ffb642e845fd24f489a191ee5e2263918ed14567659d146024dc893097ca0f2869f8f9",
+          "sha256": "1eff087ac64b990aa06111bf4edf93eb64a0fa85e151ff63d1a067ae4bf9ad27",
+          "sha1": "286c40c09f5f8a970b16abf8555f8dd294a78109",
+          "md5": "96257ebce13150e6dec9f733a87a2982"
         }
       ]
     }

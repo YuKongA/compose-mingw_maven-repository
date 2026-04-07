@@ -259,11 +259,11 @@
         {
           "name": "navigation-compose-mingwx64-2.10.0-alpha01-sources.jar",
           "url": "navigation-compose-mingwx64-2.10.0-alpha01-sources.jar",
-          "size": 32768,
-          "sha512": "9205f644c6c8506b366076b8345e0146ee2fd0853c8baf724aac73961e64fcf76502dfaff7256e662840e87bcbaf9f9f254627f625ab9fb38f6cedf6e38bf2e6",
-          "sha256": "2ebdcfe2fe9a3951667519a8c5d12bcf1a641d92679eb0dbeb4773c8a8d91839",
-          "sha1": "e246dcc061093f59d6ec0b40605bdc1f98223215",
-          "md5": "d95f97604f817a15242b1f191a3bd11d"
+          "size": 32775,
+          "sha512": "b848c8969148c713c5a8690b90c5f1c3521afc0412cded975ad0ce8fd3edebeea1db5d7d49a7eda17e7e9db283df044a0edc0f5655dd56241eee312b8dbbbc32",
+          "sha256": "369122c32ce3c7fcf34346ce2b2ebc2af8ddd6fd11b65452bef4de87fb8a4b53",
+          "sha1": "c156bc1a6ccf615c32c0a68df3dcce2487af72fe",
+          "md5": "2a2349700c902ffc9928c50d61bcc817"
         }
       ]
     }
