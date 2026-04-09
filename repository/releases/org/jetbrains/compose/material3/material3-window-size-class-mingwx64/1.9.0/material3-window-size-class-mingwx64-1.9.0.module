@@ -44,11 +44,11 @@
         {
           "name": "material3-window-size-class-mingwX64Main-1.9.0.klib",
           "url": "material3-window-size-class-mingwx64-1.9.0.klib",
-          "size": 19201,
-          "sha512": "df28845cc06ea3c13c9ac0dd92344cc1adebb9b444783ac3ac75cfbeda2acfbbdb2e96e5d78449212ffd407fd640c781ee7955e11bdfcc03af69082aaf8e9e8e",
-          "sha256": "fac2fea01ca86cdd0f1baa4160348fa607519482ba0079b0e62cf90e63927475",
-          "sha1": "2fe81acb688c0af07664729c14a36e93c633dd89",
-          "md5": "58be96daccbb25b8ee59f6f42da1dbcf"
+          "size": 19198,
+          "sha512": "9b5362a091e0831f5d6aed1bff09d3c12ed83e2614913d7b7752656fd0a234cfcb68ecf47d3185abd49aebdac6bb497b4830c234eb5814cd088022ca3cd5fd30",
+          "sha256": "4e251e7f3d7eab098bec47591e842604267695f9c58f554dc05a3cf4f7122b55",
+          "sha1": "89dfa18cf2aa9f9f19c33bbdbe74c3bf1ccb5002",
+          "md5": "0c31cc86e55a315fbf9e83f33ec934e3"
         }
       ]
     },

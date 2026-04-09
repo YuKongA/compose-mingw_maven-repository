@@ -58,11 +58,11 @@
         {
           "name": "components-resources-mingwX64Main-1.11.0-alpha04.klib",
           "url": "components-resources-mingwx64-1.11.0-alpha04.klib",
-          "size": 204207,
-          "sha512": "54b8fcec49d6f9ec89f80cc6e17983b037d58543a154265158a49f2f2c961929e51f51aa3b015b759d0f841ac1e0595135c96a7613a059e741a70f8d5ca1a511",
-          "sha256": "97533d5b0114da4f997c50fe31d458c12c8fed060a1ffd996cec8c119c52d631",
-          "sha1": "a3adfbd09e6d1fa53d52dc45996d924c11481c91",
-          "md5": "d277bfff85249b127d336bd5f36e46ac"
+          "size": 204206,
+          "sha512": "867753dfe3c8d33eac8d1cb688234a5d0ca69874ed43a79fb2f6016d2b537028729c7ec4aa3b04670abfefb3cb120b02603dd4a2869cec6ec201ea39311d74fa",
+          "sha256": "330c9d91889934adf2d38f48afc2b14dc4a3e82fe4a454a6f5dddc91fb4a7be4",
+          "sha1": "73b308d8da2777a31c6b70aef18b30cd81356e50",
+          "md5": "e5fd28a4edffb23ba5336380f9d6b3d3"
         }
       ]
     },

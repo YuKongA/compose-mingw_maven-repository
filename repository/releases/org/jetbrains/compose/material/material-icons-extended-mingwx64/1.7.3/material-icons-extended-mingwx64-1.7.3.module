@@ -51,11 +51,11 @@
         {
           "name": "material-icons-extended-mingwX64Main-1.7.3.klib",
           "url": "material-icons-extended-mingwx64-1.7.3.klib",
-          "size": 22378636,
-          "sha512": "3085a45c325adf68e5e44fecdd1273711a80bb400db0c34a8c1be07b4daee274a58ef026c7eed184c09a1d0fc1fac28a093e5bfc143e822effed738b0cb27e95",
-          "sha256": "2e96086b686cdceaa8324677f4f2e704076a6444283c4ec8d1c01e6999fbd080",
-          "sha1": "1ea11d4bd8966fb2a94c4f1f8a685c3a3fb3c4ce",
-          "md5": "0218c3b796aecabbfb54d9502f98b292"
+          "size": 22378445,
+          "sha512": "b086418145b96f8a3e89ac04ec0554d80a004e2e0c2c444dbbd177561f7f0f6d525e1b212d4aebe8d48229349fca3fb4169be7da57ae34dcfd0c98a707fced8e",
+          "sha256": "cc4899a0eb84e6e943a93941f2ad6ffb48903f323947e92ec3c751f03a47309f",
+          "sha1": "7ff476693ff9fd2fb1cf01d2be81af7a2c278240",
+          "md5": "66e09b5872f1173a3a2b6351afba135c"
         }
       ]
     },

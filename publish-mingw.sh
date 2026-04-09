@@ -5,7 +5,7 @@
 #   all        = run all steps
 #   skiko      = Step 1: Skiko
 #   compose    = Steps 2-6: Compose Core (5 batches + redirect)
-#   icons      = Step 7: compose-icons-mingw (icons, window-size-class, materialkolor, resources)
+#   icons      = Step 7: compose-mingw-deps (icons, window-size-class, materialkolor, resources)
 #   miuix      = Step 8: miuix
 #   sync       = Step 9: Copy to maven-repository
 #
@@ -19,7 +19,7 @@ set -e
 REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 SKIKO_DIR="$(dirname "$REPO_DIR")/skiko/skiko"
 COMPOSE_DIR="$(dirname "$REPO_DIR")/compose-multiplatform-core"
-ICONS_DIR="$(dirname "$REPO_DIR")/compose-icons-mingw"
+ICONS_DIR="$(dirname "$REPO_DIR")/compose-mingw-deps"
 MIUIX_DIR="$(dirname "$REPO_DIR")/miuix-mingw"
 RELEASES_DIR="$REPO_DIR/repository/releases"
 
@@ -113,7 +113,7 @@ step_compose() {
 }
 
 step_icons() {
-  echo "=== Third-party libs (compose-icons-mingw) ==="
+  echo "=== Third-party libs (compose-mingw-deps) ==="
   cd "$ICONS_DIR"
   ./gradlew publishToMavenLocal
 }

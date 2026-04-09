@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../miuix-blur/0.9.0-e02a1b64-SNAPSHOT/miuix-blur-0.9.0-e02a1b64-SNAPSHOT.module",
+    "group": "top.yukonga.miuix.kmp",
+    "module": "miuix-blur",
+    "version": "0.9.0-e02a1b64-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-blur-mingwX64Main-0.9.0-e02a1b64-SNAPSHOT.klib",
+          "url": "miuix-blur-mingwx64-0.9.0-e02a1b64-SNAPSHOT.klib",
+          "size": 151319,
+          "sha512": "fcff13b9e88033366301294fb4dea5438aebbbaadd2254c8fc3a632d7dd83a50a343b4041e5e383bc2cb58b7b6ff46c3cc3cc33880e811e313d2dc45f17285a6",
+          "sha256": "fad473968b7b37a85bae48764db1408448f7f4c5e34d728d36f9a9e0281543de",
+          "sha1": "8d44d197356915e14005e2e4812ea71da053b1f3",
+          "md5": "62b40af09b5bc55d3b11644ccf4b8bf1"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "miuix-blur-mingwx64-0.9.0-e02a1b64-SNAPSHOT-sources.jar",
+          "url": "miuix-blur-mingwx64-0.9.0-e02a1b64-SNAPSHOT-sources.jar",
+          "size": 35416,
+          "sha512": "2d191474191d517c648ca502409cfd3005fc709171679894745db08322109ad83d7097cf5b7150b595962f9eff86c3286914c454681282026872f9398a056d65",
+          "sha256": "925f0609de0d4d35e64b72941f3b748d6a0a4102c333ee0fcf250752b76b3a3d",
+          "sha1": "cf9180aa4f5a3e82961e0bb1fc1f38f2baf7462e",
+          "md5": "29f008071e896fce01331e625848073f"
+        }
+      ]
+    },
+    {
+      "name": "mingwX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.11.0-alpha04"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "miuix-blur-0.9.0-e02a1b64-SNAPSHOT.kotlin_resources.zip",
+          "url": "miuix-blur-mingwx64-0.9.0-e02a1b64-SNAPSHOT-kotlin_resources.kotlin_resources.zip",
+          "size": 352,
+          "sha512": "1aa0b540d061ca6fff573eff843dc799caab21ed3be4427461a9866264ff0ccc4a6995b0ef920e24fb76ab18f11fc3243be43997571d0da2983817f4f2ca1545",
+          "sha256": "27bb3b3ad08f445d1112611ef948c251e701ed3c91c0d63b31b3b9d9717acf3b",
+          "sha1": "4c6ecb4722588ec568798d7248447ceefe7c9522",
+          "md5": "e27286de46dbf1a94da9da54116caa6a"
+        }
+      ]
+    }
+  ]
+}

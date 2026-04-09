@@ -118,11 +118,11 @@
         {
           "name": "foundation-mingwX64Main-1.11.0-alpha04.klib",
           "url": "foundation-mingwx64-1.11.0-alpha04.klib",
-          "size": 4289955,
-          "sha512": "fc60dc613bceccfff2e0dad0936d1d64fef67a648b5a19dac48dc53dff5ac76b8d33956e505e7845b77cb81c875b4a6d12309a9162cc886345385c114f237448",
-          "sha256": "0ad202bf65399b0aa77ab5295e84d66b23eb1a0e3d394deb4da01c1608bb2938",
-          "sha1": "333b7bb9bd43a0e7e6103d9661c17a64e3e6274c",
-          "md5": "c1f41736f52ede97390e86bd75cd4dc2"
+          "size": 4290740,
+          "sha512": "f2f64d5b86d38ccdb56af8507624de8009dbb5253a52157ce66d41898f87a9ffd112b011b042528272a1ce1cb5170a1c77b165c87005d6ac582360402f1647fc",
+          "sha256": "89348cc5ad8aa87933f927c24507748a5e6484643b9a6fd89afc9e1c334dbe80",
+          "sha1": "87f4f1a7260632017c5c4baa4c54711280489f61",
+          "md5": "65c91ed20b0647fb01132877c38218b5"
         }
       ]
     },
@@ -159,11 +159,11 @@
         {
           "name": "foundation-mingwx64-1.11.0-alpha04-sources.jar",
           "url": "foundation-mingwx64-1.11.0-alpha04-sources.jar",
-          "size": 1175922,
-          "sha512": "f130bc773ba71ed3630f2a26939977f6c8936f4d979de72af0c0721560bc1e42be10befb07535ba555a5cc96eebbc9e57da555e8deb06107897f465c96ce2b36",
-          "sha256": "c25b43132f914ab8beb6b0753f897ad30a5f64faeb8424014a52d60d80ed7847",
-          "sha1": "e51c682c51090d7443a184f7b1e28bb4d6b63872",
-          "md5": "c900c47fe3a5988e502e417134c9d46d"
+          "size": 1176308,
+          "sha512": "d84f2973882f49cf1fc49159e68f96f7062092bcfe606ea06d806519681a79dadc8a2d771e49d050e32ab87b9fbebf1f1ff6e3d114b22ca9dddd3e17dcbc4ad7",
+          "sha256": "889e551abdfea0cc777f14e45393eb91f1728a7152c544d217363ea66d9ea694",
+          "sha1": "30ab561ff0d7d7a44c3b36eaffa69b4ab9d9a555",
+          "md5": "c28b13f449dd53b4e63ef30ff8603afc"
         }
       ]
     }

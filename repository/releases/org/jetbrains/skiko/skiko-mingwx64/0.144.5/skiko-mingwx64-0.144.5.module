@@ -50,11 +50,11 @@
         {
           "name": "skiko-mingwX64Main-0.144.5.klib",
           "url": "skiko-mingwx64-0.144.5.klib",
-          "size": 47179279,
-          "sha512": "7804086fe1105aa193942097a8d1d4cdba8d8b9f822a43e02999d81c4ab3a346bbf0e4d89db75a17898d47866d70a12e51594e0acb7ed207ed6105603106f1ac",
-          "sha256": "78641725ba5c1b85b68131b7b2a05f98e6523c158845769a523dbe9e1160baeb",
-          "sha1": "c68021dc919e3652f33cf6f95893f631ab325d59",
-          "md5": "c925decaf05f086839476b2a3e5de123"
+          "size": 47180352,
+          "sha512": "d66b9d561b5252e3748eeaeec4f5269337dcece348cf5429e18ba8792c000ecba04480af6447a3ce47a9f83fc5af536aaf98ed9168cd982128c82e167ff2a272",
+          "sha256": "32ee4a525813c066876b6e9c484be45c3f19f0b35e14b240bf660a421cd193e0",
+          "sha1": "0f6a6322870c6b587e19cffe260264e6bdd44e8c",
+          "md5": "6064445e89c70803431c6b3884a47c51"
         },
         {
           "name": "skiko-mingwX64Cinterop-skikoMain-0.144.5.klib",
@@ -82,11 +82,11 @@
         {
           "name": "skiko-mingwx64-0.144.5-sources.jar",
           "url": "skiko-mingwx64-0.144.5-sources.jar",
-          "size": 269865,
-          "sha512": "7aefdbbb2de1165ec039bff71351e123d341b59b9d72bf39f14267a08c28631df24fd9e1d37a3538e39676651556a528e4f3574ca6e597efe3f238a7711d4c81",
-          "sha256": "cde472b5390ab4c87875085721838e07741b04bd735b9ded99b9cf5dd573c6c8",
-          "sha1": "c0bb9bbb9d4fee69439d48cc45c47347f178060b",
-          "md5": "8c62904f226f7927eb4ef3960a688be4"
+          "size": 270219,
+          "sha512": "e9bbc1e0719f9405fb2622950491d1c38a2a3913daed80925c76bd47d703936cf10a8938e614af49afed4c4cb08df6114fa11c4b94cd7a3a669f6fac343af183",
+          "sha256": "68489c136c41292ece19d52d67e820b40990a2f57efc559d3df8ae0c6f6174b6",
+          "sha1": "79f03209615aed2606a60a33594c9c0f4a077bd1",
+          "md5": "debea539cb5dd12ae35405de49c53d7f"
         }
       ]
     }
