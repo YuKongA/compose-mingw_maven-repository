@@ -7,6 +7,14 @@ Pre-built Compose Multiplatform libraries for the `mingwX64` (Windows Kotlin/Nat
 Add this repository to your `settings.gradle.kts`:
 
 ```kotlin
+pluginManagement {
+    repositories {
+        maven {
+            setUrl("https://raw.githubusercontent.com/YuKongA/compose-mingw_maven-repository/main/repository/releases")
+        }
+    }
+}
+
 dependencyResolutionManagement {
     repositories {
         maven {
